@@ -1,0 +1,166 @@
+body{
+    margin: auto;
+    background-color: black;
+}
+#pattern{
+    width: 100%;
+    height: 2in;
+}
+#ip{
+    font-size: 25px;
+    color: white;
+    position: relative;
+bottom: 200px;
+    left: 520px;
+   /* text-align: center; */
+    
+}
+#input{
+    width: 3in;
+    display: flex;
+    position: relative;
+    bottom: 175px;
+    left: 500px;
+}
+#address{
+    width: 2in;
+    border: rgb(245, 242, 242) solid 1px;
+    height: 0.25in;
+}
+#go{
+    height: 0.3in;
+    background-color: black;
+}
+#arrow{
+    width: 15px;
+    position: relative;
+    bottom: 225px;
+    left: 580px;
+}
+#dashboard{
+    background-color: whitesmoke;
+    width: 6in;
+    height: 1in;
+    display: flex;
+    position: relative;
+    left: 360px;
+    bottom: 150px;
+    z-index: 1000;
+    
+}
+#one{
+    margin-left: 30px;
+}
+#three, #two{
+   padding-left: 70px;
+   font-size: 15px;
+  
+}
+#four{
+    padding-left: 70px;
+}
+#map{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 210px;
+}
+#ips,#loc,#time,#isp{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+b{
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:420px){
+    body{
+        background-color: white;
+    }
+    #pattern{
+        width: 100%;
+        height: 2in;
+    } 
+    #ip{
+        font-size: 22px;
+        color: white;
+        position: relative;
+        bottom: 200px;
+       left: 100px;
+        
+    }
+    #input{
+        display: flex;
+        position: relative;
+        bottom: 200px;
+        left: 80px;
+    }
+    #address{
+        width: 1.35n;
+        border: rgb(245, 242, 242) solid 1px;
+        height: 0.27in;
+    }
+    #go{
+        width: 0.3in;
+        height: 0.30in;
+        background-color: black;
+        position: relative;
+        bottom:2px;
+        right: 2px;
+    }
+    #arrow{
+        width: 15px;
+        position: relative;
+        bottom: 225px;
+        left: 190px;
+    }
+    #dashboard{
+        background-color: whitesmoke;
+        width: 2.8in;
+        height: 3in;
+        position: relative;
+        left: 50px;
+        bottom: 210px;
+       z-index: 1000;
+        display: block;
+        border-radius: 10px;
+        
+    }
+    #service{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    #one{
+        /* margin-left: 0px; */
+       padding-left: 85px;
+        font-size: 16px;
+    }
+    #three, #two{
+   padding-left: 110px;
+   font-size: 16px;
+    }
+    #four{
+        padding-left: 100px;
+        font-size: 13px;
+       
+    }
+    #map{
+        height: 700px;
+        width: 100%;
+        position: relative;
+        bottom:430px;
+        display: block;
+        z-index: 1;
+      
+    }
+    #ips,#loc,#time,#isp{
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 0px;
+    }
+    #i{
+        padding-left: 20px;
+    }
+}
