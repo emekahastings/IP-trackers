@@ -35,7 +35,7 @@ var api_key = "i0GfxPNIrkCAI2DukPxDSJktIJFUY";
 
 
 
- go.addEventListener('click',  $(function () {
+ window.addEventListener('load',  $(function () {
     $.ajax({
         url: "https://geo.ipify.org/api/v1",
         data: {  
