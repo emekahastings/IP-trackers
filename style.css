@@ -20,7 +20,7 @@ bottom: 200px;
     /* align-items: center; */
     position: relative;
     bottom: 200px;
-    left: 440px;
+    left: 570px;
 }
 #address{
     width: 2in;
@@ -40,7 +40,7 @@ bottom: 200px;
     position: relative;
     flex-direction: row;
     align-items: center;
-    left: 250px;
+    left: 370px;
     bottom: 150px;
     z-index: 1000;
     
@@ -141,12 +141,12 @@ b{
     }
     #one{
         /* margin-left: 0px; */
-       padding-left: 0.8in;
+       padding-left: 0px;
         font-size: 16px;
     }
     #three, #two{
         
-   padding-left: 110px;
+   padding-left: 30px;
    font-size: 16px;
     }
     #four{
