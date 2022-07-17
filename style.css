@@ -1,13 +1,16 @@
+html{
+    font-size: 16px;
+}
 body{
     margin: auto;
     background-color: black;
 }
 #pattern{
-    width: 100%;
-    height: 2in;
+    width: 100vw;
+    height: 5vh;
 }
 #ip{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: white;
     position: relative;
 bottom: 200px;
@@ -79,33 +82,39 @@ b{
 }
 
 @media screen and (max-width:420px){
+    html, body{
+        font-size: 16px;
+        overflow-x: hidden;
+    }
     body{
         background-color: white;
-        width: 100%;
+        width: 100vw;
     }
     #pattern{
-        width: 100%;
-        height: 2in;
+        position: relative;
+        width: 100vw;
+        height: 15vh;
     } 
     #ip{
        display: flex;
        flex-direction: row;
        align-items: center;
-        font-size: 22px;
+        font-size: 1.6rem;
         color: white;
         position: relative;
-        bottom: 200px;
-       left: 100px;
-        
+        top: -6rem;
+        /* position: absolute;
+        top: -23rem; */
+       left: 20vw;
+        z-index: 1000;
     }
     #input{
        display: flex;
        flex-direction: row;
        align-items: center;
-     
         position: relative;
-        bottom: 200px;
-        left: 90px;
+        bottom: 100px;
+        left: 5rem;
     }
     #address{
         display: flex;
@@ -125,12 +134,12 @@ b{
     }
     #dashboard{
         background-color: whitesmoke;
-        width:2.8in;
+        width:20rem;
        height: fit-content;
         position: relative;
-        left: 50px;
-        bottom: 210px;
-       z-index: 1000;
+        left: 2rem;
+        bottom: 110px;
+       z-index: 900;
         display: block;
         border-radius: 10px;
         
@@ -163,13 +172,20 @@ b{
         z-index: 1;
       
     }
-    #ips,#loc,#time,#isp{
+    #ips,#loc,#time{
         font-size: 25px;
         font-weight: 700;
        display: flex;
        flex-direction: column;
-       align-items: center;
+     padding-right: 3rem;
      
+    }
+    #isp{
+        font-size: 25px;
+        font-weight: 700;
+       display: flex;
+       flex-direction: column;
+     padding-right: 4.5rem;
     }
     #i{
         padding-left: 20px;
